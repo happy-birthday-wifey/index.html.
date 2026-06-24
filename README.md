@@ -289,15 +289,15 @@
         <h2>Memory Gallery 📸</h2>
         <div class="gallery-container">
             <div class="gallery-card">
-                <img src="pic1.jpg" alt="Beautiful Wifey">
+                <img src="pic1.jpeg" alt="Beautiful Wifey">
                 <div class="gallery-caption">"Your elegance in this saree completely takes my breath away. Absolutely ethereal... 😍✨"</div>
             </div>
             <div class="gallery-card">
-                <img src="pic2.jpg" alt="Sweetest Smile">
+                <img src="pic2.jpeg" alt="Sweetest Smile">
                 <div class="gallery-caption">"That gentle gaze and shy smile of yours can melt my heart in a split second. 💕"</div>
             </div>
             <div class="gallery-card">
-                <img src="pic3.jpg" alt="Stunning Look">
+                <img src="pic3.jpeg" alt="Stunning Look">
                 <div class="gallery-caption">"Pure perfection. Every single time I look at you, I fall in love all over again. ❤️🌟"</div>
             </div>
         </div>
