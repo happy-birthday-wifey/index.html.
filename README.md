@@ -216,7 +216,7 @@
             background: white;
             padding: 25px;
             border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.04);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.044);
             border-bottom: 4px solid var(--secondary-color);
             transition: 0.3s;
         }
@@ -301,7 +301,6 @@
     <section id="home">
         <h2>Our Beautiful Journey ❤️</h2>
         <div class="countdown-container">
-            <!-- Couple Image Added Here -->
             <img class="couple-pic" src="https://i.ibb.co/rGFMCGyb/att-Oxdcw-Ceg7jk-Sk2tla-Uef-NTzu-D4kx-X9l6ta3pp-iwwo.jpg" alt="Us ❤️">
             <p style="font-size: 1.1rem;">Time passed since we became "Us" (08 Dec 2024) 💕</p>
             <div id="timer">Loading counter...</div>
@@ -316,17 +315,17 @@
             <!-- First Image (Yellow/Paisley Saree) -->
             <div class="gallery-card">
                 <img src="https://i.ibb.co/SSph5Ry/att-GD1qj3gh-FI4f-Ey-Q7-JUL4-W3n-Ka-Mn-UF2-TPJZxau-NMTg-N4.jpg" alt="Beautiful Wifey">
-                <div class="gallery-caption">"Your elegance in this saree completely takes my breath away. Absolutely ethereal... 😍✨"</div>
+                <div class="gallery-caption">"Your elegance in this saree completely takes my breath away. Absolutely ethereal..."</div>
             </div>
             <!-- Second Image (Brown Dress/Dupatta looking back) -->
             <div class="gallery-card">
                 <img src="https://i.ibb.co/hxhR8HdY/att-h-QHk3-DE732jnvcn9njh5kb-E-Q6b-3p-EOods-N4-T5g9o-M.jpg" alt="Sweetest Smile">
-                <div class="gallery-caption">"That gentle gaze and shy smile of yours can melt my heart in a split second. 💕"</div>
+                <div class="gallery-caption">"That gentle gaze and shy smile of yours can melt my heart in a split second."</div>
             </div>
             <!-- Third Image (Red and Yellow Bandhani Saree) -->
             <div class="gallery-card">
                 <img src="https://i.ibb.co/x8DWYhVV/att-0x-UWtg-E-8u8-LTTL7-Fk-BUT3j2-VYe-W6d-Fi71-W1d4-Brk5-I.jpg" alt="Stunning Look">
-                <div class="gallery-caption">"Pure perfection. Every single time I look at you, I fall in love all over again. ❤️🌟"</div>
+                <div class="gallery-caption">"Pure perfection. Every single time I look at you, I fall in love all over again."</div>
             </div>
         </div>
         <button class="next-btn" onclick="scrollToSection('letter')">Read a Surprise Letter 💌</button>
