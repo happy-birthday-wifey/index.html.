@@ -44,7 +44,7 @@
             margin-bottom: 30px;
         }
 
-        /* --- 1. Birthday Cake & Intro Intro Section --- */
+        /* --- 1. Birthday Cake & Candle Animation --- */
         #birthday-intro {
             background: linear-gradient(135deg, #ffe5ec, #ffc2d1);
         }
@@ -134,7 +134,7 @@
 
         .gallery-card img {
             width: 100%;
-            max-height: 450px;
+            max-height: 550px;
             object-fit: cover;
             border-radius: 15px;
         }
@@ -265,6 +265,7 @@
 </head>
 <body>
 
+    <!-- 1. Birthday Cake & Candle Animation -->
     <section id="birthday-intro">
         <div class="cake-container">
             <div class="candle">
@@ -276,6 +277,7 @@
         <button class="next-btn" onclick="scrollToSection('home')">Let's Begin Our Journey ✨</button>
     </section>
 
+    <!-- 2. Home & Countdown -->
     <section id="home">
         <h2>Our Beautiful Journey ❤️</h2>
         <div class="countdown-container">
@@ -285,25 +287,30 @@
         <button class="next-btn" onclick="scrollToSection('gallery')">See Your Beautiful Pictures 📸</button>
     </section>
 
+    <!-- 3. Memory Gallery -->
     <section id="gallery">
         <h2>Memory Gallery 📸</h2>
         <div class="gallery-container">
+            <!-- First Image (Yellow/Paisley Saree) -->
             <div class="gallery-card">
-                <img src="pic1.jpeg" alt="Beautiful Wifey">
+                <img src="att.0xUWtgE-8u8LTTL7FkBUT3j2VYeW6dFi71W1d4Brk5I.jpeg" alt="Beautiful Wifey">
                 <div class="gallery-caption">"Your elegance in this saree completely takes my breath away. Absolutely ethereal... 😍✨"</div>
             </div>
+            <!-- Second Image (Brown Dress/Dupatta looking back) -->
             <div class="gallery-card">
-                <img src="pic2.jpeg" alt="Sweetest Smile">
+                <img src="att.hQHk3DE732jnvcn9njh5kbE_Q6b-3pEOodsN4T5g9oM.jpeg" alt="Sweetest Smile">
                 <div class="gallery-caption">"That gentle gaze and shy smile of yours can melt my heart in a split second. 💕"</div>
             </div>
+            <!-- Third Image (Red and Yellow Bandhani Saree) -->
             <div class="gallery-card">
-                <img src="pic3.jpeg" alt="Stunning Look">
+                <img src="att.GD1qj3ghFI4fEyQ7JUL4W3nKaMnUF2TPJZxauNMTgN4.jpeg" alt="Stunning Look">
                 <div class="gallery-caption">"Pure perfection. Every single time I look at you, I fall in love all over again. ❤️🌟"</div>
             </div>
         </div>
         <button class="next-btn" onclick="scrollToSection('letter')">Read a Surprise Letter 💌</button>
     </section>
 
+    <!-- 4. Digital Love Letter -->
     <section id="letter">
         <h2>A Message From My Heart ✨</h2>
         <button class="btn" onclick="toggleLetter()">Click here for a surprise 👉👈</button>
@@ -311,8 +318,7 @@
         <div id="love-letter" class="hidden-letter">
             <p><strong>My dear wifey,</strong></p>
             <br>
-            <p>I wanted to make something unique to express how much I love you. It took a lott of time but it's definitely worth it if you are happy 👉👈 continuum</p>
-            <p>Words truly fail to describe how much I love you so I built this little corner of the internet just for us..</p>
+            <p>I wanted to make something unique to express how much I love you. It took a lott of time but it's definitely worth it if you are happy 👉👈 continuum Words truly fail to describe how much I love you so I built this little corner of the internet just for us..</p>
             <p>Thank you for being mine, supporting me, loving me. You are my best friend, my wifeyy, my soulmate, my everything..</p>
             <p>You are the most precious thing of my life..</p>
             <br>
@@ -321,16 +327,17 @@
         <button class="next-btn" style="margin-top: 40px;" onclick="scrollToSection('reasons')">Why I Love You 💌</button>
     </section>
 
+    <!-- 5. Reasons Why I Love You -->
     <section id="reasons">
         <h2>Reasons Why I Love You 🎀</h2>
         <div class="reasons-stack">
             <div class="reason-card">
                 <h3>Reason #1</h3>
-                <p style="margin-top: 5px;">Your smile instantly makes my entire day so much brighter.</p>
+                <p style="margin-top: 5px;">Your smile makes my day better.</p>
             </div>
             <div class="reason-card">
                 <h3>Reason #2</h3>
-                <p style="margin-top: 5px;">You always listen to me and understand me like no one else can.</p>
+                <p style="margin-top: 5px;">You always listen to me.</p>
             </div>
             <div class="reason-card">
                 <h3>Reason #3</h3>
@@ -340,10 +347,11 @@
         <button class="next-btn" onclick="scrollToSection('surprise')">One Last Thing... 🌙</button>
     </section>
 
+    <!-- 6. Birthday Wish & Final Surprise -->
     <section id="surprise">
         <h1 class="final-title">Happy Birthday, My Love! 🌙</h1>
         <p class="final-text">
-            Thank you for being part of my life. Thank you for making every ordinary day feel extraordinary. 
+            Happy Birthday, my love. Thank you for being part of my life. Thank you for making every ordinary day feel extraordinary. 
             I promise to stand by you through every joy, every challenge, and every beautiful milestone ahead.
         </p>
         <p style="font-size: 2.2rem; font-weight: bold; color: var(--primary-color);">Forever & Always Your Mihir ❤️</p>
@@ -356,7 +364,7 @@
         }
 
         // --- 2. Relationship Countdown Timer Logic (Starts from 8th Dec 2024) ---
-        const anniversaryDate = new Date(2024, 11, 8, 0, 0, 0); // Month is 11 for December
+        const anniversaryDate = new Date(2024, 11, 8, 0, 0, 0); // 11 means December in JS
 
         function updateCountdown() {
             const now = new Date();
